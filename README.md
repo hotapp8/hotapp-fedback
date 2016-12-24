@@ -1,7 +1,4 @@
-# 微信小程序用户反馈组件--hotapp提供
-
-
-
+# HotApp小程序用户反馈组件
 
 ## 开始使用
 ### 1.在app.js里onLaunch()初始化hotapp
@@ -49,7 +46,7 @@ bindViewTap: function () {
 
 ### 4.关于我们
 
-HotApp云笔记，基于HotApp小程序统计云后台
+HotApp小程序统计：是第一个微信第三方小程序统计工具，包含实时统计小程序的日活，启动次数，以及留存等信息。同时支持自定义事件统计，小程序带参数二维码渠道统计功能正在邀请内测。https://weixin.hotapp.cn
 
 免费云后台申请地址 https://weixin.hotapp.cn/cloud
 
