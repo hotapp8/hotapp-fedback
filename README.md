@@ -45,13 +45,13 @@ bindViewTap: function () {
 </view>
 ```
 ### 3.你可以hotapp小程序统计后台查看反馈信息（注意关联好自己hotappkey）
-![image](./showImage/IMG_0098.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0098.PNG)
 ## 功能展示
-![image](./showImage/IMG_0090.PNG)
-![image](./showImage/IMG_0091.PNG)
-![image](./showImage/IMG_0092.PNG)
-![image](./showImage/IMG_0093.PNG)
-![image](./showImage/IMG_0094.PNG)
-![image](./showImage/IMG_0095.PNG)
-![image](./showImage/IMG_0096.PNG)
-![image](./showImage/IMG_0097.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0090.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0091.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.come/IMG_0092.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0093.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0094.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0095.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0097.PNG)
