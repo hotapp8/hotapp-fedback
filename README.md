@@ -1,4 +1,4 @@
-# HotApp小程序用户反馈组件--hotapp小程序统计提供
+# HotApp小程序用户反馈组件
 
 ## 开始使用
 ### 1.在app.js里onLaunch()初始化hotapp
