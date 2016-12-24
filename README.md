@@ -1,13 +1,6 @@
 # 微信小程序用户反馈组件--hotapp提供
 
 
-HotApp云笔记，基于HotApp小程序统计云后台
-
-免费云后台申请地址 https://weixin.hotapp.cn/cloud
-
-API 文档地址：https://weixin.hotapp.cn/api
-
-hotapp小程序技术讨论QQ群：173063969
 
 
 ## 开始使用
@@ -49,9 +42,18 @@ bindViewTap: function () {
 ## 功能展示
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0090.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0091.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
-![image](http://7xn9on.com1.z0.glb.clouddn.come/IMG_0092.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0093.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0094.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0095.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG?imageView2/2/w/300/h/500/interlace/0/q/1000)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0097.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+
+### 4.关于我们
+
+HotApp云笔记，基于HotApp小程序统计云后台
+
+免费云后台申请地址 https://weixin.hotapp.cn/cloud
+
+API 文档地址：https://weixin.hotapp.cn/api
+
+hotapp小程序技术讨论QQ群：173063969
