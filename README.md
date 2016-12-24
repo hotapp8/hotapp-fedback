@@ -45,13 +45,13 @@ bindViewTap: function () {
 </view>
 ```
 ### 3.你可以hotapp小程序统计后台查看反馈信息（注意关联好自己hotappkey）
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0098.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0098.PNG)
 ## 功能展示
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0090.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0091.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.come/IMG_0092.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0093.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0094.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0095.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0097.PNG?imageView2/2/w/300/h/500/interlace/0/q/100|watermark/2/text/aG90YXBw57uf6K6h5o-Q5L6b/font/5b6u6L2v6ZuF6buR/fontsize/500/fill/I0ZGRkZGRg==/dissolve/100/gravity/NorthEast/dx/10/dy/10)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0090.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0091.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.come/IMG_0092.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0093.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0094.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0095.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG?imageView2/2/w/300/h/500/interlace/0/q/1000)
+![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0097.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
