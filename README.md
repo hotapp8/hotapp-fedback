@@ -42,7 +42,6 @@ bindViewTap: function () {
 ## 功能展示
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0090.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0091.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
-![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0093.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0094.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0095.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG?imageView2/2/w/300/h/500/interlace/0/q/1000)
