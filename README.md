@@ -7,8 +7,6 @@
 var hotapp = require('utils/hotapp.js');
 //初始化hotapp，使用自己的hotappkey（注册地址：https://weixin.hotapp.cn/api）
 hotapp.init('hotapp2427615');
-//登录login
-hotapp.wxlogin();
 ```
 ### 2.在自己项目中引入文件代码
 

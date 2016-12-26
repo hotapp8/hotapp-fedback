@@ -14,7 +14,6 @@ App({
     hotapp.init('hotapp2427615');
     // 输入debug错误日志, 建议生产环境不要开启
     hotapp.setDebug(true);
-    hotapp.wxlogin();
   },
   onError: function (msg) {
     //错误日志上传(开发中)
