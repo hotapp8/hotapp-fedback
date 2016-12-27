@@ -42,6 +42,7 @@ bindViewTap: function () {
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0096.PNG?imageView2/2/w/300/h/500/interlace/0/q/1000)
 ![image](http://7xn9on.com1.z0.glb.clouddn.com/IMG_0097.PNG?imageView2/2/w/300/h/500/interlace/0/q/100)
 
+
 ### 4.关于我们
 
 HotApp小程序统计：是第一个微信第三方小程序统计工具，包含实时统计小程序的日活，启动次数，以及留存等信息。同时支持自定义事件统计，小程序带参数二维码渠道统计功能正在邀请内测。https://weixin.hotapp.cn
