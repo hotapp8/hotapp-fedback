@@ -13,33 +13,33 @@ Page({
     feedback: [{
       content: '你可以留下联系方式，文本，图片，进行反馈',
       content_type: 0,
-      contract_info: '',
+      contract_info: '',//弹出框input值
       myDate: '',
       role: false,
-      img: '../../images/用户反馈01_03.png',
+      img: '../../images/01_03.png',
     }, {
       content: '【系统消息】：您的反馈已收到，稍后给您回复',
       content_type: 0,
       contract_info: '',
       myDate: '',
       role: true,
-      img: "../../images/用户反馈01_07.png"
+      img: "../../images/01_07.png"
     }
     ],//返回数据
     minutes: '',//分钟间隔
     addinput: '',//清楚input框的值
-    sendflag: '',//发送按钮控制
+    sendflag: false,//发送按钮控制
     networkType: '',//判断当前网络类型
     addtell: {
       addtellHidden: true,//弹出框显示/隐藏
-      contract_info: ''//弹出框input值
+      
     },
   },
 
   onLoad: function (options) {
+    console.log(options);
     // 页面监控
     app.globalData.hotapp.count(this)
-    
     // 页面初始化 options为页面跳转所带来的参数
   },
   onReady: function () {
@@ -66,7 +66,8 @@ Page({
       }
     })
   },
-  bindinput: function (e) {
+
+  bindfocus: function (e) {
     var that = this;
     wx.getNetworkType({
       success: function (res) {
@@ -87,15 +88,18 @@ Page({
 
     //当sendflag有值的时候，设置发送按钮显示
     this.setData({
-      sendflag: e.detail.value
+      sendflag:true
     })
   },
 
-  bindchange: function (e) {
-
+  bindblur: function (e) {
+ var that = this;
+  this.setData({
+      sendflag:false
+    })
     //提交输入框的数据
     if (e.detail.value != '' && this.data.networkType != 'fail') {
-      var that = this;
+     
       //获取当前时间
       var myDate = new Date();
       var hours = myDate.getHours();       //获取当前小时数(0-23)
@@ -106,12 +110,13 @@ Page({
       } else {
         var mydata = hours + ':' + minutes
       }
+      console.log(that.data.contract_info);
       //消息数组，系统默认
       var newfeedback = this.data.feedback;
       newfeedback.push({
         content: e.detail.value,
         content_type: 0,
-        contract_info: that.data.addtell.contract_info,
+        contract_info: that.data.contract_info,
         myDate: mydata,
         role: false,
         img: that.data.userInfo.avatarUrl,
@@ -121,18 +126,19 @@ Page({
           contract_info: '',
           myDate: '',
           role: true,
-          img: "../../images/用户反馈01_07.png"
+          img: "../../images/01_07.png"
         })
 
       //修改feedback,设置addaddinput为[]值为空
       this.setData({
         addinput: [],
-        sendflag: '',
+        sendflag: false,
         minutes: minutes,
         feedback: newfeedback
       })
       //上传文字到服务器
-      app.globalData.hotapp.feedback(e.detail.value, 0, '18679654648', function (res) {
+      
+      app.globalData.hotapp.feedback(e.detail.value, 0, that.data.contract_info, function (res) {
         console.log(res)
         wx.showToast({
           title: '已成功反馈',
@@ -169,9 +175,9 @@ Page({
       }, {
           content: '【系统消息】：您的反馈已收到！',
           content_type: 0,
-          contract_info: that.data.addtell.contract_info,
+          contract_info: that.data.contract_info,
           role: true,
-          img: "../../images/用户反馈01_07.png"
+          img: "../../images/01_07.png"
         })
       //修改feedback
       that.setData({
@@ -179,7 +185,8 @@ Page({
         feedback: newfeedback
       })
       //添加图片到服务器
-      app.globalData.hotapp.feedback(res, 1, '18679654648', function (res) {
+     
+      app.globalData.hotapp.feedback(res, 1, that.data.contract_info, function (res) {
         console.log(res)
       })
     })
@@ -199,7 +206,6 @@ Page({
       flag: true,
       addtell: {
         addtellHidden: true,
-        contract_info: ''
       }
     })
   },
@@ -208,18 +214,19 @@ Page({
     this.setData({
       addtell: {
         addtellHidden: true,
-        contract_info: ''
       }
     })
   },
   saveusertell: function (e) {
     //保存input框的值
     this.setData({
+      contract_info: e.detail.value,
       addtell: {
         addtellHidden: false,
-        contract_info: e.detail.value
+      
       }
     })
+  console.log(this.data.contract_info)
 
   },
   footaddmore: function () {

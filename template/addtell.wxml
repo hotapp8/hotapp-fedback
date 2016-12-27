@@ -3,7 +3,7 @@
     <modal title="联系方式" confirm-text="确认" cancel-text="取消" hidden="{{addtellHidden}}" bindconfirm="modalconfirm" bindcancel="modalcancel">
       <label>
         <view class="section">
-          <input  bindinput="saveusertell" placeholder="请输入QQ、邮箱或者微信号" value="{{contract_info}}" />
+          <input  bindinput="saveusertell" placeholder="请输入QQ、邮箱或者微信号" value="{{addtell.contract_info}}" />
         </view>
       </label>
     </modal>
