@@ -34,7 +34,7 @@ Page({
   onLoad: function (option) {
 
      // 页面监控
-      app.globalData.hotapp.count(this)
+     // app.globalData.hotapp.count(this)
     //加载
     wx.showNavigationBarLoading()
     setTimeout(function () {
