@@ -11,10 +11,14 @@ page {
 /*聊天盒子*/
 .scrollwechat {
   flex: 1;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
- 
+  overflow: hidden;
+   height: 100%;
+}
+.scrollview{
+ height: 100%;
+
 }
 .scrollwechat li {
   width: 100%;

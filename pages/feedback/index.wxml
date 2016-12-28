@@ -4,7 +4,7 @@
     <template is="addtell" data="{{...addtell}}"/>
   <!--反馈内容-->
      <ul class="scrollwechat"  bindtap="closeimg">
-      <scroll-view class="scrollview" bindscroll="bindscroll" scroll-y="true">
+      <scroll-view class="scrollview" scroll-y="true" >
       <block  wx:for="{{feedback}}" wx:key="index">
        <li wx:if="{{item.myDate}}" class="mydate">
             <view class="mydatebox">

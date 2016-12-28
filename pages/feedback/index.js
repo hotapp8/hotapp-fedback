@@ -53,7 +53,6 @@ Page({
     //调用登录接口
     wx.login({
       success: function (res) {
-
         wx.getUserInfo({
           success: function (res) {
             that.setData({
@@ -148,6 +147,8 @@ Page({
         })
       })
     }
+    
+    
   },
   bindtapimg: function () {
     //打开添加图片框
