@@ -25,6 +25,7 @@
           <text class="feedbacktext" wx:else>{{item.content}}</text>
         </view>
         <view wx:if="{{networkType=='fail'}}"><icon type="warn" size="20"/></view>
+        <view class="{{item.role?'imgview1':'imgview2'}}"></view>
       </li>
       </block>
       <view class="link"></view>

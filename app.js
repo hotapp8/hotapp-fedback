@@ -17,7 +17,7 @@ App({
   },
   onError: function (msg) {
     //错误日志上传(开发中)
-    hotapp.onError(msg, function (err) {
+    hotapp.onError(msg,'1.0.0',function (err) {
       console.log(err)
     })
   },

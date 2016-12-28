@@ -16,7 +16,7 @@ Page({
   scanCode: function () {
     wx.scanCode({
       success: (res) => {
-        console.log(res)
+       
         this.setData({
           userInfo: res.result
         })
@@ -32,7 +32,7 @@ Page({
     }
   },
   onLoad: function (option) {
-    console.log(option);
+
      // 页面监控
       app.globalData.hotapp.count(this)
     //加载

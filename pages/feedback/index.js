@@ -37,7 +37,7 @@ Page({
   },
 
   onLoad: function (options) {
-    console.log(options);
+
     // 页面监控
     app.globalData.hotapp.count(this)
     // 页面初始化 options为页面跳转所带来的参数
@@ -53,13 +53,13 @@ Page({
     //调用登录接口
     wx.login({
       success: function (res) {
-        console.log(res)
+
         wx.getUserInfo({
           success: function (res) {
             that.setData({
               userInfo: res.userInfo
             })
-            console.log(res)
+  
             typeof cb == "function" && cb(res.userInfo)
           }
         })
@@ -110,7 +110,8 @@ Page({
       } else {
         var mydata = hours + ':' + minutes
       }
-      console.log(that.data.contract_info);
+
+
       //消息数组，系统默认
       var newfeedback = this.data.feedback;
       newfeedback.push({
@@ -139,7 +140,7 @@ Page({
       //上传文字到服务器
       
       app.globalData.hotapp.feedback(e.detail.value, 0, that.data.contract_info, function (res) {
-        console.log(res)
+
         wx.showToast({
           title: '已成功反馈',
           icon: 'success',
@@ -226,7 +227,7 @@ Page({
       
       }
     })
-  console.log(this.data.contract_info)
+
 
   },
   footaddmore: function () {

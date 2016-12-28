@@ -5,9 +5,16 @@
 ```
 //copyhotapp.js到自己项目中，接入hotapp.js
 var hotapp = require('utils/hotapp.js');
+
 //初始化hotapp，使用自己的hotappkey（注册地址：https://weixin.hotapp.cn/api）
 hotapp.init('hotapp2427615');
 ```
+request合法域名:
+https://api.wechat.hotapp.cn
+
+uploadFile合法域名:
+https://wxapi.hotapp.cn
+
 ### 2.在自己项目中引入文件代码
 
 1.images文件（images）

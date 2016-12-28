@@ -8,16 +8,14 @@ page {
   width: 100%;
   flex-direction: column;
 }
-
+/*聊天盒子*/
 .scrollwechat {
   flex: 1;
   overflow: hidden;
-  padding: 20rpx;
   display: flex;
   flex-direction: column;
  
 }
-
 .scrollwechat li {
   width: 100%;
   display: flex;
@@ -53,10 +51,19 @@ page {
   width: 80rpx;
   height: 80rpx;
 }
+.imgview1{
+   width: 160rpx;
+   display: flex;
+   justify-content: center;
+}
+.imgview2{
+   width: 160rpx;
+   display: flex;
+   justify-content: center;
 
+}
 .textview {
   width:100%;
-  margin: 0 100rpx 0 0;
   border-radius: 10rpx;
   background: #d5eaf8;
   padding: 20rpx;
@@ -65,10 +72,8 @@ page {
   width: 20rpx;
   height: 80rpx;
 }
-
 .textview2 {
    width:100%;
-  margin: 0 0 0 100rpx;
   background: #fff;
   border-radius: 10rpx;
   padding: 20rpx;
@@ -171,4 +176,9 @@ page {
 .footaddbox ul li image{
   width: 60rpx;
   height: 60rpx;
+}
+.tellinput{
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 1px solid #efeff4;
 }
