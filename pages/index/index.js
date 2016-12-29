@@ -46,19 +46,19 @@ Page({
 
     // 生命周期函数--监听页面初次渲染完成
     // api错误测试
-    // wx.request({
-    //   url: 'error.php', //仅为示例，并非真实的接口地址
-    //   data: {
-    //     x: '',
-    //     y: ''
-    //   },
-    //   header: {
-    //     'content-type': 'application/json'
-    //   },
-    //   success: function (res) {
-    //     console.log(res.data)
-    //   }
-    // })
+    wx.request({
+      url: 'error.php', //仅为示例，并非真实的接口地址
+      data: {
+        x: '',
+        y: ''
+      },
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res.data)
+      }
+    })
     //测试getStorage
     // wx.getStorage({
     //   key: 'key',

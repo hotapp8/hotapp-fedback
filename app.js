@@ -14,10 +14,11 @@ App({
     hotapp.init('hotapp2427615');
     // 输入debug错误日志, 建议生产环境不要开启
     hotapp.setDebug(true);
+
   },
   onError: function (msg) {
-    //错误日志上传(开发中)
-    hotapp.onError(msg,'1.0.0',function (err) {
+    //错误日志上传 (版本号：2.0.0，自定义在这里，上传服务器)
+    hotapp.onError(msg,'2.0.0',function (err) {
       console.log(err)
     })
   },

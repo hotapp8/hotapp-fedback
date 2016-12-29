@@ -16,14 +16,14 @@ Page({
       contract_info: '',//弹出框input值
       myDate: '',
       role: false,
-      img: '../../images/01_03.png',
+      img: '../../images/hotapp_01_03.png',
     }, {
       content: '【系统消息】：您的反馈已收到，稍后给您回复',
       content_type: 0,
       contract_info: '',
       myDate: '',
       role: true,
-      img: "../../images/01_07.png"
+      img: "../../images/hotapp_01_07.png"
     }
     ],//返回数据
     minutes: '',//分钟间隔
@@ -126,7 +126,7 @@ Page({
           contract_info: '',
           myDate: '',
           role: true,
-          img: "../../images/01_07.png"
+          img: "../../images/hotapp_01_07.png"
         })
 
       //修改feedback,设置addaddinput为[]值为空
@@ -179,7 +179,7 @@ Page({
           content_type: 0,
           contract_info: that.data.contract_info,
           role: true,
-          img: "../../images/01_07.png"
+          img: "../../images/hotapp_01_07.png"
         })
       //修改feedback
       that.setData({

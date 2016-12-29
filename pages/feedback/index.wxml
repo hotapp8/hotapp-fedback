@@ -16,8 +16,8 @@
         <view class="{{item.role?'imgview1':'imgview2'}}"><image class="headimg" src="{{item.img}}"></image></view>
         <!--三角-->
          <view class="triangle">
-              <image wx:if="{{item.role}}"  src="../../images/triangleRight.png"></image>
-              <image wx:else  src="../../images/triangleLeft.png"></image>
+              <image wx:if="{{item.role}}"  src="../../images/hotapp_triangleRight.png"></image>
+              <image wx:else  src="../../images/hotapp_triangleLeft.png"></image>
          </view>
          <!--内容 ：图片/文字-->
         <view class="{{item.role?'textview2':'textview'}}">
@@ -43,7 +43,7 @@
       </view>
       <view wx:else class="footadd" bindtap="bindtapimg">
         <view class="addbroder">
-            <image src="../../images/add.png"/>
+            <image src="../../images/hotapp_add.png"/>
         </view>
       </view>
   </view>
@@ -51,15 +51,15 @@
   <view class="footaddbox"  hidden="{{flag ? true : false}}">
       <ul>
         <li bindtap="footaddimg">
-          <view class="footaddimg"><image src="../../images/img.png"></image></view>
+          <view class="footaddimg"><image src="../../images/hotapp_img.png"></image></view>
           <text>添加图片</text>  
         </li>
         <li bindtap="footaddtell">
-          <view class="footaddtext"><image src="../../images/tell.png"></image></view>
+          <view class="footaddtext"><image src="../../images/hotapp_tell.png"></image></view>
           <text>联系方式</text>
         </li>
         <li bindtap="footaddmore">
-          <view class="footaddtext"><image src="../../images/add.png"></image></view>
+          <view class="footaddtext"><image src="../../images/hotapp_add.png"></image></view>
           <text>更多</text>
         </li>
       </ul>
