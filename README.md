@@ -23,7 +23,7 @@ var hotapp = require('utils/hotapp.js');
 hotapp.init('hotapp2427615');
 ```
 request合法域名:
-https://api.wechat.hotapp.cn
+https://wxapi.hotapp.cn
 
 uploadFile合法域名:
 https://wxapi.hotapp.cn
